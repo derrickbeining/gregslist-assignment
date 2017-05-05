@@ -220,15 +220,15 @@ nav.nav-primary > div.nav-branding {
 }
 
 .searchbar-btn {
-    
     border: 2px lightgray solid;
     border-radius: 4px;
     bottom: 0;
     display: inline-block;
     height: 30px;
-    width: 30px;
     margin-left: 5px;
+    padding: 0;
     position: absolute;
+    width: 30px;
 }
 
 .search-result-date {
