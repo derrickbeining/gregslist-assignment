@@ -246,6 +246,10 @@ nav.nav-primary > div.nav-branding {
     color: blue;
 }
 
+.search-result-heading a:hover {
+    color: ;
+}
+
 .search-result-item {
     line-height: 1.5;
     margin-bottom: 15px;
