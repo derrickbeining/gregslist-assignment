@@ -1,0 +1,261 @@
+/* RESET STYLES */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* STYLES RESET */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    z-index: 99999999999999;
+}
+
+.container {
+    padding: 100px 10%;
+}
+
+.nav-branding {
+    display: inline-block;
+    position: relative;
+    font-size: 1.25rem;
+}
+
+nav.nav-primary > div.nav-branding {
+
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links {
+    display: block;
+    float: right;
+    position: relative;
+}
+
+.nav-links a {
+    color: purple;
+    text-decoration-line: none;
+}
+
+.nav-links a:hover {
+    color: mediumpurple;
+}
+
+.nav-links a:active {
+    color: palevioletred;
+    height: 100%;
+}
+
+.nav-links li {
+    
+}
+
+.nav-primary {
+    background-color: lightgray;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.pagination-bar {
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    margin: 30px 0;
+    position: relative;
+    width: 300px;
+    z-index: 0;
+}
+
+.pagination-bar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.pagination-location {
+    text-align: center;
+    position: relative;
+    width: 47%;
+}
+
+.pagination-next {
+    border-left: 1px lightgray solid;
+    position: relative;
+    right: 0;
+    text-align: center;
+    width: 25%;
+}
+
+.pagination-next a {
+    text-decoration: none;
+}
+
+.pagination-next a::after {
+    content: ">";
+    font-size: .75rem;
+    margin-left: 5px;
+    position: relative;
+    top: -0.1em;
+    
+}
+
+.pagination-prev {
+    border-right: 1px lightgray solid;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+
+.pagination-prev a {
+    text-decoration: none;
+}
+
+.pagination-prev a::before {
+    content: "<";
+    font-size: .75rem;
+    margin-right: 5px;
+    position: relative;
+    top: -0.1em;
+    
+}
+
+.searchbar {
+    position: relative;
+    max-width: 600px;
+    min-width: 300px;
+    width: 70%;
+}
+
+.searchbar-input-main {
+    border: 2px lightgray solid;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 5px;
+    position: relative;
+    width: 90%;
+    -webkit-appearance: textfield; 
+}
+
+.searchbar-input-main:focus {
+    outline: none;
+}
+
+.searchbar > label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.searchbar-btn {
+    
+    border: 2px lightgray solid;
+    border-radius: 4px;
+    bottom: 0;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.search-result-date {
+    color: darkgray;
+    display: inline-block;
+}
+
+.search-result-heading {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.search-result-heading a {
+    color: blue;
+}
+
+.search-result-item {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.search-result-location {
+    color: darkgray;
+    display: inline-block;
+}
+
+.search-results-list {
+    min-width: 600px;
+}

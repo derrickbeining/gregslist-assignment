@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Greg's List: Search Results</title>
+        <link rel="stylesheet" type="text/css" href="Styles/gregslist.css">
+    </head>
+    <body>
+        <nav class="nav-primary">
+            <div class="nav-branding">
+                Greg's List
+            </div>
+            
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#" target="_self">Post</a></li>
+                <li class="nav-link"><a href="#" target="_self">Account</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <form class="searchbar">
+                <label for="searchbar">Search Jobs</label>
+                <input type="search" id="searchbar" class="searchbar-input-main" placeholder="Search software jobs">
+                <submit class="searchbar-btn"><img src="Images/magnifying-glass.png" alt="Magnifying glass image"></submit>
+            </form>
+        
+            <main>
+                <nav class="pagination-bar">
+                    <ul>
+                        <li class="pagination-prev"><a href="#" target="_self">prev</a></li>
+                        <li class="pagination-location">1 to 100 of 179</li>
+                        <li class="pagination-next"><a href="#" target="_self">next</a></li>
+                    </ul>
+                </nav>
+
+                <ol class="search-results-list" start="1">
+                    <li id="1" class="search-result-item">
+                        <article>
+                            <time class="search-result-date">June 22</time>
+                            <header class="search-result-heading">
+                                <h2><a href="#" target="_self">Technical Project Manager</a></h2>
+                            </header>
+                            <address class="search-result-location">
+                                Midtown East
+                            </address>
+                        </article>
+                    </li>
+                    <li id="2" class="search-result-item">
+                        <article>
+                            <time class="search-result-date">June 21</time>
+                            <header class="search-result-heading">
+                                <h2><a href="#" target="_self">Frontend Developer</a></h2>
+                            </header>
+                            <address class="search-result-location">
+                                SoHo
+                            </address>
+                        </article>
+                    </li>
+                    <li id="3" class="search-result-item">
+                        <article>
+                            <time class="search-result-date">June 20</time>
+                            <header class="search-result-heading">
+                                <h2><a href="#" target="_self">Senior Python Developer / Cofounder</a></h2>
+                            </header>
+                            <address class="search-result-location">
+                                Flatiron
+                            </address>
+                        </article>
+                    </li>                
+                </ol>
+            </main>
+        </div>
+
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
